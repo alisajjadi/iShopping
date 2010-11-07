@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iShoppingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iShoppingAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* iShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iShoppingViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* iShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iShoppingViewController.m */; };
+		410BF4DA126D65970052E204 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 410BF4D9126D65970052E204 /* icon.png */; };
+		4135447E127FB03400636E1A /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4135447D127FB03400636E1A /* GradientButton.m */; };
+		413544E1127FC8AA00636E1A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413544E0127FC8AA00636E1A /* QuartzCore.framework */; };
+		414AB890126C349D00BDE2D7 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 414AB88F126C349D00BDE2D7 /* cart.png */; };
+		414AB892126C34A700BDE2D7 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 414AB891126C34A700BDE2D7 /* email.png */; };
+		414AB894126C34BC00BDE2D7 /* archive.png in Resources */ = {isa = PBXBuildFile; fileRef = 414AB893126C34BC00BDE2D7 /* archive.png */; };
+		414AB896126C34C500BDE2D7 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 414AB895126C34C500BDE2D7 /* settings.png */; };
+		414AB8AA126C357000BDE2D7 /* CurrentCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414AB8A8126C357000BDE2D7 /* CurrentCartViewController.m */; };
+		414AB8AB126C357000BDE2D7 /* CurrentCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414AB8A9126C357000BDE2D7 /* CurrentCartViewController.xib */; };
+		414AB9FC126C71DB00BDE2D7 /* CartItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414AB9FA126C71DB00BDE2D7 /* CartItemViewController.m */; };
+		414AB9FD126C71DB00BDE2D7 /* CartItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414AB9FB126C71DB00BDE2D7 /* CartItemViewController.xib */; };
+		414ABA81126C8E1400BDE2D7 /* ShoppingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 414ABA80126C8E1400BDE2D7 /* ShoppingItem.m */; };
+		414ABAAB126CA33200BDE2D7 /* ShoppingCarts.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 414ABAAA126CA33200BDE2D7 /* ShoppingCarts.sqlite */; };
+		414ABBA8126CA87500BDE2D7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 414ABBA7126CA87500BDE2D7 /* libsqlite3.0.dylib */; };
+		414ABD0C126CF7DE00BDE2D7 /* ClosedCartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414ABD0A126CF7DE00BDE2D7 /* ClosedCartsViewController.m */; };
+		414ABD0D126CF7DE00BDE2D7 /* ClosedCartsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414ABD0B126CF7DE00BDE2D7 /* ClosedCartsViewController.xib */; };
+		414ABD42126D01B700BDE2D7 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = 414ABD41126D01B700BDE2D7 /* Cart.m */; };
+		414ABDB4126D1BBB00BDE2D7 /* EmailCartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414ABDB2126D1BBB00BDE2D7 /* EmailCartsViewController.m */; };
+		414ABDB5126D1BBB00BDE2D7 /* EmailCartsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414ABDB3126D1BBB00BDE2D7 /* EmailCartsViewController.xib */; };
+		414ABE6C126D381400BDE2D7 /* AccountSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414ABE6A126D381400BDE2D7 /* AccountSettingsViewController.m */; };
+		414ABE6D126D381400BDE2D7 /* AccountSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414ABE6B126D381400BDE2D7 /* AccountSettingsViewController.xib */; };
+		414ABF0F126D595D00BDE2D7 /* grayBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 414ABF0E126D595D00BDE2D7 /* grayBackground.png */; };
+		41AD920C126A82FC00A47AD4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD920A126A82FC00A47AD4 /* LoginViewController.m */; };
+		41AD920D126A82FC00A47AD4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AD920B126A82FC00A47AD4 /* LoginViewController.xib */; };
+		41AD936E126B07F700A47AD4 /* TalkToServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD936D126B07F700A47AD4 /* TalkToServer.m */; };
+		41F78DA11286A85900AF86A2 /* copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 41F78DA01286A85900AF86A2 /* copy.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iShoppingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iShoppingAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iShoppingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iShoppingAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* iShoppingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iShoppingViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* iShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iShoppingViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* iShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iShoppingViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iShopping_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iShopping_Prefix.pch; sourceTree = "<group>"; };
+		410BF4D9126D65970052E204 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
+		4135447C127FB03400636E1A /* GradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientButton.h; sourceTree = "<group>"; };
+		4135447D127FB03400636E1A /* GradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientButton.m; sourceTree = "<group>"; };
+		413544E0127FC8AA00636E1A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		414AB88F126C349D00BDE2D7 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = Images/cart.png; sourceTree = "<group>"; };
+		414AB891126C34A700BDE2D7 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email.png; path = Images/email.png; sourceTree = "<group>"; };
+		414AB893126C34BC00BDE2D7 /* archive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = archive.png; path = Images/archive.png; sourceTree = "<group>"; };
+		414AB895126C34C500BDE2D7 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = Images/settings.png; sourceTree = "<group>"; };
+		414AB8A7126C357000BDE2D7 /* CurrentCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentCartViewController.h; sourceTree = "<group>"; };
+		414AB8A8126C357000BDE2D7 /* CurrentCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentCartViewController.m; sourceTree = "<group>"; };
+		414AB8A9126C357000BDE2D7 /* CurrentCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CurrentCartViewController.xib; path = Classes/CurrentCartViewController.xib; sourceTree = "<group>"; };
+		414AB9F9126C71DB00BDE2D7 /* CartItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartItemViewController.h; sourceTree = "<group>"; };
+		414AB9FA126C71DB00BDE2D7 /* CartItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartItemViewController.m; sourceTree = "<group>"; };
+		414AB9FB126C71DB00BDE2D7 /* CartItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CartItemViewController.xib; path = Classes/CartItemViewController.xib; sourceTree = "<group>"; };
+		414ABA7F126C8E1400BDE2D7 /* ShoppingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingItem.h; path = Classes/ShoppingItem.h; sourceTree = "<group>"; };
+		414ABA80126C8E1400BDE2D7 /* ShoppingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingItem.m; path = Classes/ShoppingItem.m; sourceTree = "<group>"; };
+		414ABAAA126CA33200BDE2D7 /* ShoppingCarts.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShoppingCarts.sqlite; sourceTree = "<group>"; };
+		414ABBA7126CA87500BDE2D7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		414ABD09126CF7DE00BDE2D7 /* ClosedCartsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClosedCartsViewController.h; sourceTree = "<group>"; };
+		414ABD0A126CF7DE00BDE2D7 /* ClosedCartsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosedCartsViewController.m; sourceTree = "<group>"; };
+		414ABD0B126CF7DE00BDE2D7 /* ClosedCartsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ClosedCartsViewController.xib; path = Classes/ClosedCartsViewController.xib; sourceTree = "<group>"; };
+		414ABD40126D01B700BDE2D7 /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cart.h; path = Classes/Cart.h; sourceTree = "<group>"; };
+		414ABD41126D01B700BDE2D7 /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cart.m; path = Classes/Cart.m; sourceTree = "<group>"; };
+		414ABDB1126D1BBB00BDE2D7 /* EmailCartsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailCartsViewController.h; sourceTree = "<group>"; };
+		414ABDB2126D1BBB00BDE2D7 /* EmailCartsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailCartsViewController.m; sourceTree = "<group>"; };
+		414ABDB3126D1BBB00BDE2D7 /* EmailCartsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EmailCartsViewController.xib; path = Classes/EmailCartsViewController.xib; sourceTree = "<group>"; };
+		414ABE69126D381400BDE2D7 /* AccountSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSettingsViewController.h; sourceTree = "<group>"; };
+		414ABE6A126D381400BDE2D7 /* AccountSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSettingsViewController.m; sourceTree = "<group>"; };
+		414ABE6B126D381400BDE2D7 /* AccountSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AccountSettingsViewController.xib; path = Classes/AccountSettingsViewController.xib; sourceTree = "<group>"; };
+		414ABF0E126D595D00BDE2D7 /* grayBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayBackground.png; path = Images/grayBackground.png; sourceTree = "<group>"; };
+		41AD9209126A82FC00A47AD4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		41AD920A126A82FC00A47AD4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		41AD920B126A82FC00A47AD4 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/LoginViewController.xib; sourceTree = "<group>"; };
+		41AD936C126B07F700A47AD4 /* TalkToServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TalkToServer.h; path = Classes/TalkToServer.h; sourceTree = "<group>"; };
+		41AD936D126B07F700A47AD4 /* TalkToServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TalkToServer.m; path = Classes/TalkToServer.m; sourceTree = "<group>"; };
+		41F78DA01286A85900AF86A2 /* copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = copy.png; path = Images/copy.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iShopping-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iShopping-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				414ABBA8126CA87500BDE2D7 /* libsqlite3.0.dylib in Frameworks */,
+				413544E1127FC8AA00636E1A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iShoppingAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iShoppingAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* iShoppingViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* iShoppingViewController.m */,
+				41AD920A126A82FC00A47AD4 /* LoginViewController.m */,
+				41AD9209126A82FC00A47AD4 /* LoginViewController.h */,
+				414AB8A7126C357000BDE2D7 /* CurrentCartViewController.h */,
+				414AB8A8126C357000BDE2D7 /* CurrentCartViewController.m */,
+				414AB9F9126C71DB00BDE2D7 /* CartItemViewController.h */,
+				414AB9FA126C71DB00BDE2D7 /* CartItemViewController.m */,
+				414ABD09126CF7DE00BDE2D7 /* ClosedCartsViewController.h */,
+				414ABD0A126CF7DE00BDE2D7 /* ClosedCartsViewController.m */,
+				414ABDB1126D1BBB00BDE2D7 /* EmailCartsViewController.h */,
+				414ABDB2126D1BBB00BDE2D7 /* EmailCartsViewController.m */,
+				414ABE69126D381400BDE2D7 /* AccountSettingsViewController.h */,
+				414ABE6A126D381400BDE2D7 /* AccountSettingsViewController.m */,
+				4135447C127FB03400636E1A /* GradientButton.h */,
+				4135447D127FB03400636E1A /* GradientButton.m */,
+			);
+			name = Interface;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iShopping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				41354485127FB04400636E1A /* Communications */,
+				080E96DDFE201D6D7F000001 /* Interface */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				41AD925D126A901100A47AD4 /* Images */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iShopping_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				414ABE6B126D381400BDE2D7 /* AccountSettingsViewController.xib */,
+				414ABDB3126D1BBB00BDE2D7 /* EmailCartsViewController.xib */,
+				414ABD0B126CF7DE00BDE2D7 /* ClosedCartsViewController.xib */,
+				414AB8A9126C357000BDE2D7 /* CurrentCartViewController.xib */,
+				414AB9FB126C71DB00BDE2D7 /* CartItemViewController.xib */,
+				41AD920B126A82FC00A47AD4 /* LoginViewController.xib */,
+				2899E5210DE3E06400AC0155 /* iShoppingViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iShopping-Info.plist */,
+				414ABAAA126CA33200BDE2D7 /* ShoppingCarts.sqlite */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				413544E0127FC8AA00636E1A /* QuartzCore.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				414ABBA7126CA87500BDE2D7 /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41354485127FB04400636E1A /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+				41AD936C126B07F700A47AD4 /* TalkToServer.h */,
+				41AD936D126B07F700A47AD4 /* TalkToServer.m */,
+				414ABA7F126C8E1400BDE2D7 /* ShoppingItem.h */,
+				414ABA80126C8E1400BDE2D7 /* ShoppingItem.m */,
+				414ABD40126D01B700BDE2D7 /* Cart.h */,
+				414ABD41126D01B700BDE2D7 /* Cart.m */,
+			);
+			name = Communications;
+			sourceTree = "<group>";
+		};
+		41AD925D126A901100A47AD4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				41F78DA01286A85900AF86A2 /* copy.png */,
+				410BF4D9126D65970052E204 /* icon.png */,
+				414ABF0E126D595D00BDE2D7 /* grayBackground.png */,
+				414AB893126C34BC00BDE2D7 /* archive.png */,
+				414AB895126C34C500BDE2D7 /* settings.png */,
+				414AB88F126C349D00BDE2D7 /* cart.png */,
+				414AB891126C34A700BDE2D7 /* email.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iShopping" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iShopping;
+			productName = iShopping;
+			productReference = 1D6058910D05DD3D006BFB54 /* iShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iShopping" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iShopping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* iShoppingViewController.xib in Resources */,
+				41AD920D126A82FC00A47AD4 /* LoginViewController.xib in Resources */,
+				414AB890126C349D00BDE2D7 /* cart.png in Resources */,
+				414AB892126C34A700BDE2D7 /* email.png in Resources */,
+				414AB894126C34BC00BDE2D7 /* archive.png in Resources */,
+				414AB896126C34C500BDE2D7 /* settings.png in Resources */,
+				414AB8AB126C357000BDE2D7 /* CurrentCartViewController.xib in Resources */,
+				414AB9FD126C71DB00BDE2D7 /* CartItemViewController.xib in Resources */,
+				414ABAAB126CA33200BDE2D7 /* ShoppingCarts.sqlite in Resources */,
+				414ABD0D126CF7DE00BDE2D7 /* ClosedCartsViewController.xib in Resources */,
+				414ABDB5126D1BBB00BDE2D7 /* EmailCartsViewController.xib in Resources */,
+				414ABE6D126D381400BDE2D7 /* AccountSettingsViewController.xib in Resources */,
+				414ABF0F126D595D00BDE2D7 /* grayBackground.png in Resources */,
+				410BF4DA126D65970052E204 /* icon.png in Resources */,
+				41F78DA11286A85900AF86A2 /* copy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iShoppingAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* iShoppingViewController.m in Sources */,
+				41AD920C126A82FC00A47AD4 /* LoginViewController.m in Sources */,
+				41AD936E126B07F700A47AD4 /* TalkToServer.m in Sources */,
+				414AB8AA126C357000BDE2D7 /* CurrentCartViewController.m in Sources */,
+				414AB9FC126C71DB00BDE2D7 /* CartItemViewController.m in Sources */,
+				414ABA81126C8E1400BDE2D7 /* ShoppingItem.m in Sources */,
+				414ABD0C126CF7DE00BDE2D7 /* ClosedCartsViewController.m in Sources */,
+				414ABD42126D01B700BDE2D7 /* Cart.m in Sources */,
+				414ABDB4126D1BBB00BDE2D7 /* EmailCartsViewController.m in Sources */,
+				414ABE6C126D381400BDE2D7 /* AccountSettingsViewController.m in Sources */,
+				4135447E127FB03400636E1A /* GradientButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iShopping_Prefix.pch;
+				INFOPLIST_FILE = "iShopping-Info.plist";
+				PRODUCT_NAME = iShopping;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iShopping_Prefix.pch;
+				INFOPLIST_FILE = "iShopping-Info.plist";
+				PRODUCT_NAME = iShopping;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
