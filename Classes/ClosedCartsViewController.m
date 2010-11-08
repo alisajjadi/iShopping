@@ -13,6 +13,7 @@
 #import "TalkToServer.h"
 
 
+
 @implementation ClosedCartsViewController
 
 @synthesize userEmail;
@@ -94,7 +95,13 @@
 		cell.accessoryView = accessoryButton;		
 	}
 	
-	cell.textLabel.text = [[cartItems objectAtIndex:indexPath.row]itemName];
+	ShoppingItem *item = [cartItems objectAtIndex:indexPath.row];
+	cell.textLabel.text = [item itemName];
+	if (item.cleared)
+		cell.textLabel.textColor = [UIColor grayColor];
+	else
+		cell.textLabel.textColor = [UIColor blackColor];	
+	
 	[(UIButton *)[cell accessoryView] setEnabled:[[copyFlags objectAtIndex:indexPath.row] boolValue]];
 	return cell;		
 }
@@ -127,13 +134,18 @@
 }
 
 
-- (void)deleteCart   // Delete Selected Closed Cart
+- (void)deleteOrEmailCart   // Delete Selected Closed Cart
 {
+	
+	NSString * emailButtonTitle = nil;
+	if ([MFMailComposeViewController canSendMail])
+		emailButtonTitle = @"Email Cart";
+	
 	UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:nil
 													   delegate:self
 											  cancelButtonTitle:@"Cancel" 
 										 destructiveButtonTitle:@"Delete Cart" 
-											  otherButtonTitles:nil];
+											  otherButtonTitles:emailButtonTitle, nil];
 	
 	[sheet showInView:self.view];
 	[sheet release];
@@ -144,38 +156,70 @@
 #pragma mark UIActionSheetDelegate
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-	if ([actionSheet buttonTitleAtIndex:0] == @"Delete Cart")
-		if (buttonIndex == 0)
-		{
-			[carts removeObjectAtIndex:[picker selectedRowInComponent:0]];
-			[picker reloadAllComponents];
-			[self pickerView:picker didSelectRow:[picker selectedRowInComponent:0] inComponent:0];
-		}
+	if ([[actionSheet buttonTitleAtIndex:buttonIndex] isEqualToString: @"Delete Cart"])  
+	{
+		[carts removeObjectAtIndex:[picker selectedRowInComponent:0]];
+		[picker reloadAllComponents];
+		[self pickerView:picker didSelectRow:[picker selectedRowInComponent:0] inComponent:0];
+	} 
 	
-	if ([actionSheet buttonTitleAtIndex:0] == @"Copy Item to Current Cart") 
+	if ([[actionSheet buttonTitleAtIndex:buttonIndex] isEqualToString:@"Email Cart"])  
+	{
+		MFMailComposeViewController *controller = [[MFMailComposeViewController alloc] init];
+		controller.mailComposeDelegate = self;
+		NSString *subject = [(UILabel *)[picker viewForRow:[picker selectedRowInComponent:0]  forComponent:0] text];  
+		NSMutableString *body = [NSMutableString stringWithFormat:@"Hi,\nI would like to share my %@ with you:\n\n",subject];
+		for (ShoppingItem *item in cartItems)
+			[body appendFormat:@"Name: %@\nDesc.: %@\n\n",item.itemName,item.itemDescription];
+		[controller setSubject:subject];
+		[controller setMessageBody:body isHTML:NO]; 
+		[self presentModalViewController:controller animated:YES];
+		[controller release];
+	}
+	
+	
+	if ([[actionSheet buttonTitleAtIndex:0] isEqualToString: @"Copy Item to Current Cart"]) 
 	{
 		NSIndexPath *selectedIndexPath = tableView.indexPathForSelectedRow;
 		
 		if (buttonIndex == 0) //Copy Button
 		{	
 			[copyFlags replaceObjectAtIndex:selectedIndexPath.row withObject:[NSNumber numberWithBool:NO]];
+
 			CurrentCartViewController *currentCart = [self.tabBarController.viewControllers objectAtIndex:0];
 			[currentCart.cartItems addObject:[cartItems objectAtIndex:selectedIndexPath.row]];
 			[currentCart.tableView reloadData];
+			
 			[TalkToServer copyItemToCurrentCart:[cartItems objectAtIndex:selectedIndexPath.row] forUser:userEmail];
 		}
 		
+		// Both Copy or Cancel Button
 		[tableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:selectedIndexPath] withRowAnimation:NO];
 		[tableView deselectRowAtIndexPath:selectedIndexPath animated:YES];
 	}
+
+}
+
+#pragma mark -
+#pragma mark MFMailComposeViewControllerDelegate
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller  didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error;
+{
+	if (result == MFMailComposeResultSent) {
+		NSLog(@"Email is sent!");
+	}
+	[self dismissModalViewControllerAnimated:YES];
 }
 
 #pragma mark -
 
 - (void)viewDidLoad {
 
-	
 	carts = [[TalkToServer closedCartsForUser:userEmail] retain];
+	copyFlags = [[NSMutableArray alloc] init];
+	
+	// initialize current picker selection and its associated cart
+	[self pickerView:picker didSelectRow:[picker selectedRowInComponent:0] inComponent:0];	
 	
 	[super viewDidLoad];
 }
@@ -183,22 +227,13 @@
 - (void)viewWillAppear:(BOOL)animated {
 	
 	// Set right navigation bar button
-	UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash  
+	UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction  
 															  target:self
-															  action:@selector(deleteCart)];
+															  action:@selector(deleteOrEmailCart)];
 	self.tabBarController.navigationItem.rightBarButtonItem = button;
 	[button release];
 	self.tabBarController.title = @"Closed Carts";
-	
-	// read Carts from Disk
-//	carts = [[TalkToServer closedCartsForUser:userEmail] retain];
-	
-	// initialize current picker selection and its associated cart
-	[copyFlags release];
-	copyFlags = [[NSMutableArray alloc] init];
-	[picker reloadAllComponents];
-	[self pickerView:picker didSelectRow:[picker selectedRowInComponent:0] inComponent:0];	
-	
+		
 	[tableView deselectRowAtIndexPath:[tableView indexPathForSelectedRow] animated:YES];
 }
 

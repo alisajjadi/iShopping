@@ -15,8 +15,7 @@
 	NSString *userEmail;
 	
 	NSMutableArray *cartItems;
-	IBOutlet UIButton *deleteButton;
-	IBOutlet UIButton *archiveButton;
+	IBOutlet UIButton *archiveOrAddItemButton;
 	IBOutlet UITableView *tableView;
 	
 
@@ -27,8 +26,7 @@
 @property (nonatomic, retain) UITableView *tableView;
 
 
-- (IBAction) archiveCart;
-- (IBAction) deleteCart;
+- (IBAction) archiveCartOrAddNewItem;
 
 - (void)returnFromModalViewWithItem:(ShoppingItem *) item;
 

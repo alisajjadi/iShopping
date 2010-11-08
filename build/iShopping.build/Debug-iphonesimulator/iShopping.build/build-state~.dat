@@ -1,7 +1,7 @@
 TiShopping
 v7
 r0
-t310816548.210896
+t310872314.794707
 cCheck dependencies
 cProcessInfoPlistFile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/Info.plist" iShopping-Info.plist
 cCompileXIB "/Users/Ali/Documents/App Project/iShopping/MainWindow.xib"
@@ -34,9 +34,6 @@ cCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-no
 cCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/EmailCartsViewController.o "/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/AccountSettingsViewController.o "/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/GradientButton.o "/Users/Ali/Documents/App Project/iShopping/Classes/GradientButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping" normal i386
-cGenerateDSYMFile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app.dSYM" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping"
-cTouch "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
 c000000004C6C30170000000000000110
@@ -57,6 +54,11 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1
 c000000004C5A4DA10000000000001466
 t1280986529
 s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004C5E1EFD0000000000091C50
+t1281236733
+s597072
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
 c000000004C5A505200000000000000C4
@@ -208,36 +210,37 @@ s357
 i"Cart.h"
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.h
-c000000004CD3D617000000000000034A
-t1288951319
+c000000004CD6CD1B000000000000034A
+t1289145627
 s842
 i<UIKit/UIKit.h>
 i"ShoppingItem.h"
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m
-c000000004CD3D5E00000000000000A6A
-t1288951264
-s2666
+c000000004CD6CD0F0000000000000943
+t1289145615
+s2371
 i"CartItemViewController.h"
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.xib
-c000000004CD418800000000000061757
-t1288968320
-s399191
+c000000004CD6CD8C000000000005FCD9
+t1289145740
+s392409
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.h
-c000000004CD5012600000000000002A5
-t1289027878
-s677
+c000000004CD6D17D0000000000000312
+t1289146749
+s786
 i<UIKit/UIKit.h>
 i"ShoppingItem.h"
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.m
-c000000004CD677930000000000001C06
-t1289123731
-s7174
+c000000004CD6D18A0000000000001DE4
+t1289146762
+s7652
 i"ClosedCartsViewController.h"
 i"CartItemViewController.h"
+i"CurrentCartViewController.h"
 i"Cart.h"
 i"TalkToServer.h"
 
@@ -247,18 +250,20 @@ t1289025135
 s24464
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.h
-c000000004CD3CAEC00000000000002B2
-t1288948460
-s690
+c000000004CD6C8980000000000000322
+t1289144472
+s802
 i<UIKit/UIKit.h>
 i"ShoppingItem.h"
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.m
-c000000004CD414310000000000002CEC
-t1288967217
-s11500
+c000000004CD6D2A60000000000002946
+t1289147046
+s10566
 i"CurrentCartViewController.h"
 i"CartItemViewController.h"
+i"ClosedCartsViewController.h"
+i"EmailCartsViewController.h"
 i"TalkToServer.h"
 i<QuartzCore/QuartzCore.h>
 
@@ -280,15 +285,15 @@ s432
 i"CustomButton.h"
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.h
-c000000004CCFD0FF0000000000000261
-t1288687871
-s609
+c000000004CD6D1B600000000000002D0
+t1289146806
+s720
 i<UIKit/UIKit.h>
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m
-c000000004CD3E54C0000000000000D92
-t1288955212
-s3474
+c000000004CD751520000000000000DC5
+t1289179474
+s3525
 i"EmailCartsViewController.h"
 i"Cart.h"
 i"TalkToServer.h"
@@ -340,24 +345,24 @@ s473
 i<Foundation/Foundation.h>
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/ShoppingItem.m
-c000000004CD39A920000000000000198
-t1288936082
+c000000004CD6B9580000000000000198
+t1289140568
 s408
 i"ShoppingItem.h"
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/TalkToServer.h
-c000000004CD3DADB00000000000003C9
-t1288952539
-s969
+c000000004CD69C69000000000000041C
+t1289133161
+s1052
 i<Foundation/Foundation.h>
 i"ShoppingItem.h"
 i"Cart.h"
 i<sqlite3.h>
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/TalkToServer.m
-c000000004CD3DCA200000000000043EB
-t1288952994
-s17387
+c000000004CD6AC4B0000000000004DF8
+t1289137227
+s19960
 i"TalkToServer.h"
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingAppDelegate.h
@@ -367,8 +372,8 @@ s407
 i<UIKit/UIKit.h>
 
 N/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingAppDelegate.m
-c000000004CBA4B2F0000000000000B54
-t1287277359
+c000000004CD6A0730000000000000B54
+t1289134195
 s2900
 i"iShoppingAppDelegate.h"
 i"iShoppingViewController.h"
@@ -442,8 +447,8 @@ t1287273760
 s18724
 
 N/Users/Ali/Documents/App Project/iShopping/ShoppingCarts.sqlite
-c000000004CD3526B0000000000002000
-t1288917611
+c000000004CD6D39C0000000000002000
+t1289147292
 s8192
 
 N/Users/Ali/Documents/App Project/iShopping/blueButton.png
@@ -452,12 +457,12 @@ t1241132468
 s1468
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app
-t1289123748
-s714
+t2
+s0
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app.dSYM
-t1289123748
-s102
+t2
+s0
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/10-medical.png
 t1288971221
@@ -468,7 +473,7 @@ t2
 s0
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/AccountSettingsViewController.nib
-t1289123745
+t1289179512
 s8049
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/AccountTabBarViewController.nib
@@ -476,11 +481,11 @@ t1287406370
 s3247
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/CartItemViewController.nib
-t1289123744
-s6460
+t1289179511
+s5056
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/ClosedCartsViewController.nib
-t1289123744
+t1289179511
 s2158
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/Copy-icon.png
@@ -492,35 +497,35 @@ t1289121766
 s1409
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/CurrentCartViewController.nib
-t1289123744
+t1289179510
 s4183
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/EmailCartsViewController.nib
-t1289123745
+t1289179512
 s5205
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/Info.plist
-t1289123742
+t1289179509
 s633
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/LoginViewController.nib
-t1289123744
+t1289179510
 s9082
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/MainWindow.nib
-t1289123743
+t1289179509
 s1533
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/PkgInfo
-t1289123742
+t1289179509
 s8
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/ShoppingCarts.sqlite
-t1289123744
+t1289179511
 s8192
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/archive.png
-t1289123743
+t1289179510
 s3032
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/blueButton.png
@@ -528,11 +533,11 @@ t1287281472
 s1468
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/cart.png
-t1289123743
+t1289179510
 s2963
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/copy.png
-t1289123745
+t1289179512
 s1424
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/copy2.png
@@ -552,19 +557,19 @@ t1289122695
 s9747
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/email.png
-t1289123743
+t1289179510
 s3002
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/grayBackground.png
-t1289123745
+t1289179512
 s3731
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping
-t1289123748
-s108736
+t2
+s0
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShoppingViewController.nib
-t1289123743
+t1289179509
 s2556
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/icon
@@ -572,7 +577,7 @@ t2
 s0
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/icon.png
-t1289123745
+t1289179512
 s34389
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iphone-camera.jpg
@@ -580,7 +585,7 @@ t2
 s0
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/settings.png
-t1289123743
+t1289179510
 s3193
 
 N/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/whiteButton.png
@@ -588,7 +593,7 @@ t1287281472
 s1430
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/AccountSettingsViewController.o
-t1289123748
+t1289179514
 s52584
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/AccountTabBarViewController.o
@@ -600,60 +605,60 @@ t1288680142
 s43396
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/Cart.o
-t1289123747
+t1289179514
 s9724
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CartItemViewController.o
-t1289123747
-s46760
+t1289179514
+s46756
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ClosedCartsViewController.o
-t1289123747
-s75100
+t1289179514
+s78512
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CurrentCartViewController.o
-t1289123747
-s81564
+t1289179514
+s83544
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CustomButton.o
 t1287283821
 s34612
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/EmailCartsViewController.o
-t1289123747
-s58336
+t2
+s0
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/GradientButton.o
-t1289123748
+t1289179514
 s40444
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/LoginViewController.o
-t1289123747
+t1289179514
 s72232
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ShoppingItem.o
-t1289123747
+t1289179514
 s11108
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/TalkToServer.o
-t1289123747
-s26164
+t1289179514
+s28252
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShopping.LinkFileList
-c000000004CD6779E000000000000074F
-t1289123742
+c000000004CD75175000000000000074F
+t1289179509
 s1871
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingAppDelegate.o
-t1289123747
+t1289179514
 s50052
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingViewController.o
-t1289123747
+t1289179514
 s46772
 
 N/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/main.o
-t1289123747
+t1289179514
 s6312
 
 N/Users/Ali/Documents/App Project/iShopping/iShoppingViewController.xib
@@ -1075,7 +1080,7 @@ t1287464510
 s15211536
 
 N/var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch.gch
-t1289123747
+t1289179513
 s15211536
 
 NiShopping-Info.plist
@@ -1085,11 +1090,11 @@ s917
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies310816542#310816542#0(0"0(0#1#0"8595932928#0"0#
+lSLF07#2@18"Check dependencies310872309#310872309#0(0"0(0#1#0"8610414560#0"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/AccountSettingsViewController.o "/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.902696
-e310816548.011256
+s310872314.653467
+e310872314.786986
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/AccountSettingsViewController.o
@@ -1098,7 +1103,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.m310816547#310816548#0(0"0(0#0#82"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.m8603523968#2078"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/AccountSettingsViewController.o"0#
+lSLF07#2@90"Compile /Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.m310872314#310872314#0(0"0(0#0#82"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.m8600050720#2078"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/AccountSettingsViewController.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/AccountSettingsViewController.o /Users/Ali/Downloads/iShopping/Classes/AccountSettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.866692
@@ -1140,8 +1145,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@67"Compile /Users/Ali/Documents/App Project/iShopping/Classes/Button.m310372942#310372942#0(0"0(0#0#59"/Users/Ali/Documents/App Project/iShopping/Classes/Button.m8666109664#2032"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/Button.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/Button.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/Cart.o "/Users/Ali/Documents/App Project/iShopping/Classes/Cart.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.732567
-e310816547.817894
+s310872314.485061
+e310872314.560018
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/Cart.o
@@ -1150,7 +1155,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/Ali/Documents/App Project/iShopping/Classes/Cart.m310816547#310816547#0(0"0(0#0#57"/Users/Ali/Documents/App Project/iShopping/Classes/Cart.m8629619008#2028"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/Cart.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/Cart.o"0#
+lSLF07#2@65"Compile /Users/Ali/Documents/App Project/iShopping/Classes/Cart.m310872314#310872314#0(0"0(0#0#57"/Users/Ali/Documents/App Project/iShopping/Classes/Cart.m8609140256#2028"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/Cart.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/Cart.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/Cart.o /Users/Ali/Downloads/iShopping/Classes/Cart.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.693783
@@ -1166,8 +1171,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@53"Compile /Users/Ali/Downloads/iShopping/Classes/Cart.m309159355#309159355#0(0"0(0#0#45"/Users/Ali/Downloads/iShopping/Classes/Cart.m8603937120#1874"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/Classes/Cart.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/Cart.o0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CartItemViewController.o "/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.540911
-e310816547.652942
+s310872314.281872
+e310872314.397878
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CartItemViewController.o
@@ -1181,7 +1186,7 @@ o/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62:
 o/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: (Messages without a matching method signature
 o/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: will be assumed to return 'id' and accept
 o/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: '...' as arguments.)
-lSLF07#2@83"Compile /Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m310816547#310816547#0(664"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m: In function '-[CartItemViewController doneOrSave]':/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: 'UIViewController' may not respond to '-returnFromModalViewWithItem:'/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: (Messages without a matching method signature/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: will be assumed to return 'id' and accept/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: '...' as arguments.)2(22@69"'UIViewController' may not respond to '-returnFromModalViewWithItem:'310816547#129#159#0(6@75"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m310644064#62#0#62#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)310816547#288#135#0(6@75"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m310644064#62#0#62#0#0"0(0#0#75"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m8628793664#2064"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CartItemViewController.o"0#
+lSLF07#2@83"Compile /Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m310872314#310872314#0(664"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m: In function '-[CartItemViewController doneOrSave]':/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: 'UIViewController' may not respond to '-returnFromModalViewWithItem:'/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: (Messages without a matching method signature/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: will be assumed to return 'id' and accept/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m:62: warning: '...' as arguments.)2(22@69"'UIViewController' may not respond to '-returnFromModalViewWithItem:'310872314#129#159#0(6@75"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m310838415#62#0#62#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)310872314#288#135#0(6@75"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m310838415#62#0#62#0#0"0(0#0#75"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m8606025472#2064"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CartItemViewController.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CartItemViewController.o /Users/Ali/Downloads/iShopping/Classes/CartItemViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.416014
@@ -1197,8 +1202,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@71"Compile /Users/Ali/Downloads/iShopping/Classes/CartItemViewController.m309159355#309159355#0(0"0(0#0#63"/Users/Ali/Downloads/iShopping/Classes/CartItemViewController.m8603699744#1910"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/Classes/CartItemViewController.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CartItemViewController.o0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ClosedCartsViewController.o "/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.711221
-e310816547.902577
+s310872314.466888
+e310872314.653345
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ClosedCartsViewController.o
@@ -1207,7 +1212,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.m310816547#310816547#0(0"0(0#0#78"/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.m8631949856#2070"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ClosedCartsViewController.o"0#
+lSLF07#2@86"Compile /Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.m310872314#310872314#0(0"0(0#0#78"/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.m8609736128#2070"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ClosedCartsViewController.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ClosedCartsViewController.o /Users/Ali/Downloads/iShopping/Classes/ClosedCartsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.503862
@@ -1223,8 +1228,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@74"Compile /Users/Ali/Downloads/iShopping/Classes/ClosedCartsViewController.m309159355#309159355#0(0"0(0#0#66"/Users/Ali/Downloads/iShopping/Classes/ClosedCartsViewController.m8602171616#1916"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/Classes/ClosedCartsViewController.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ClosedCartsViewController.o0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CurrentCartViewController.o "/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.492544
-e310816547.711095
+s310872314.250181
+e310872314.466760
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CurrentCartViewController.o
@@ -1233,7 +1238,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.m310816547#310816547#0(0"0(0#0#78"/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.m8629569536#2070"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CurrentCartViewController.o"0#
+lSLF07#2@86"Compile /Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.m310872314#310872314#0(0"0(0#0#78"/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.m8607267872#2070"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CurrentCartViewController.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CurrentCartViewController.o /Users/Ali/Downloads/iShopping/Classes/CurrentCartViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.325321
@@ -1262,9 +1267,9 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/Ali/Documents/App Project/iShopping/Classes/CustomButton.m308976621#308976621#0(0"0(0#0#65"/Users/Ali/Documents/App Project/iShopping/Classes/CustomButton.m8631600800#2044"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/CustomButton.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/CustomButton.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/EmailCartsViewController.o "/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.818007
-e310816547.959840
-r1
+s310872314.560132
+e310872314.657192
+r0
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/EmailCartsViewController.o
 x/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m
@@ -1272,7 +1277,17 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m310816547#310816547#0(0"0(0#0#77"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m8610542048#2068"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/EmailCartsViewController.o"0#
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m: In function '-[EmailCartsViewController sendEmail]':
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:24: error: 'MFMailComposeViewController' undeclared (first use in this function)
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:24: error: (Each undeclared identifier is reported only once
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:24: error: for each function it appears in.)
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:24: error: 'controller' undeclared (first use in this function)
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m: At top level:
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:47: error: expected ')' before 'MFMailComposeViewController'
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:48: error: expected ')' before 'MFMailComposeResult'
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m: In function '-[EmailCartsViewController mailComposeController:didFinishWithResult:error:]':
+o/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:51: error: 'MFMailComposeResultSent' undeclared (first use in this function)
+lSLF07#2@85"Compile /Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m310872314#310872314#0(1384"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m: In function '-[EmailCartsViewController sendEmail]':/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:24: error: 'MFMailComposeViewController' undeclared (first use in this function)/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:24: error: (Each undeclared identifier is reported only once/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:24: error: for each function it appears in.)/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:24: error: 'controller' undeclared (first use in this function)/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m: At top level:/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:47: error: expected ')' before 'MFMailComposeViewController'/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:48: error: expected ')' before 'MFMailComposeResult'/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m: In function '-[EmailCartsViewController mailComposeController:didFinishWithResult:error:]':/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m:51: error: 'MFMailComposeResultSent' undeclared (first use in this function)6(4@69"'MFMailComposeViewController' undeclared (first use in this function)310872314#132#159#0(6@77"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m310872274#24#0#24#0#43"'*' undeclared (first use in this function)0(4@52"'controller' undeclared (first use in this function)310872314#553#142#0(6@77"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m310872274#24#0#24#0#43"'*' undeclared (first use in this function)0(23@13"At top level:310872314#695#93#0(6@77"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m310872274#0#0#0#0#0"0(4@49"Expected ')' before 'MFMailComposeViewController'310872314#788#139#0(6@77"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m310872274#47#0#47#0#19"expected * before *0(4@41"Expected ')' before 'MFMailComposeResult'310872314#927#131#0(6@77"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m310872274#48#0#48#0#19"expected * before *0(4@65"'MFMailComposeResultSent' undeclared (first use in this function)310872314#1229#155#0(6@77"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m310872274#51#0#51#0#43"'*' undeclared (first use in this function)0(0#0#77"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m8607270976#2068"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/EmailCartsViewController.o"1#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/EmailCartsViewController.o /Users/Ali/Downloads/iShopping/Classes/EmailCartsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.695410
@@ -1288,8 +1303,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/Ali/Downloads/iShopping/Classes/EmailCartsViewController.m309159355#309159355#0(0"0(0#0#65"/Users/Ali/Downloads/iShopping/Classes/EmailCartsViewController.m8602502528#1914"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/Classes/EmailCartsViewController.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/EmailCartsViewController.o0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/GradientButton.o "/Users/Ali/Documents/App Project/iShopping/Classes/GradientButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.959960
-e310816548.100606
+s310872314.657304
+e310872314.794613
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/GradientButton.o
@@ -1298,11 +1313,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/Ali/Documents/App Project/iShopping/Classes/GradientButton.m310816547#310816548#0(0"0(0#0#67"/Users/Ali/Documents/App Project/iShopping/Classes/GradientButton.m8617407264#2048"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/GradientButton.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/GradientButton.o"0#
+lSLF07#2@75"Compile /Users/Ali/Documents/App Project/iShopping/Classes/GradientButton.m310872314#310872314#0(0"0(0#0#67"/Users/Ali/Documents/App Project/iShopping/Classes/GradientButton.m8607408320#2048"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/GradientButton.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/GradientButton.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/LoginViewController.o "/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.328020
-e310816547.492431
+s310872314.087213
+e310872314.250057
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/LoginViewController.o
@@ -1311,7 +1326,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.m310816547#310816547#0(0"0(0#0#72"/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.m8606517376#2058"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/LoginViewController.o"0#
+lSLF07#2@80"Compile /Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.m310872314#310872314#0(0"0(0#0#72"/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.m8598180576#2058"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/LoginViewController.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/LoginViewController.o /Users/Ali/Downloads/iShopping/Classes/LoginViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.130746
@@ -1327,8 +1342,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@68"Compile /Users/Ali/Downloads/iShopping/Classes/LoginViewController.m309159355#309159355#0(0"0(0#0#60"/Users/Ali/Downloads/iShopping/Classes/LoginViewController.m8604001792#1904"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/Classes/LoginViewController.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/LoginViewController.o0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ShoppingItem.o "/Users/Ali/Documents/App Project/iShopping/Classes/ShoppingItem.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.653060
-e310816547.732446
+s310872314.398004
+e310872314.484947
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ShoppingItem.o
@@ -1337,7 +1352,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/Ali/Documents/App Project/iShopping/Classes/ShoppingItem.m310816547#310816547#0(0"0(0#0#65"/Users/Ali/Documents/App Project/iShopping/Classes/ShoppingItem.m8632628576#2044"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/ShoppingItem.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ShoppingItem.o"0#
+lSLF07#2@73"Compile /Users/Ali/Documents/App Project/iShopping/Classes/ShoppingItem.m310872314#310872314#0(0"0(0#0#65"/Users/Ali/Documents/App Project/iShopping/Classes/ShoppingItem.m8599641664#2044"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/ShoppingItem.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ShoppingItem.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ShoppingItem.o /Users/Ali/Downloads/iShopping/Classes/ShoppingItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.499669
@@ -1353,8 +1368,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@61"Compile /Users/Ali/Downloads/iShopping/Classes/ShoppingItem.m309159355#309159355#0(0"0(0#0#53"/Users/Ali/Downloads/iShopping/Classes/ShoppingItem.m8602086656#1890"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/Classes/ShoppingItem.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/ShoppingItem.o0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/TalkToServer.o "/Users/Ali/Documents/App Project/iShopping/Classes/TalkToServer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.388242
-e310816547.540792
+s310872314.157177
+e310872314.281749
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/TalkToServer.o
@@ -1363,7 +1378,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/Ali/Documents/App Project/iShopping/Classes/TalkToServer.m310816547#310816547#0(0"0(0#0#65"/Users/Ali/Documents/App Project/iShopping/Classes/TalkToServer.m8629720384#2044"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/TalkToServer.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/TalkToServer.o"0#
+lSLF07#2@73"Compile /Users/Ali/Documents/App Project/iShopping/Classes/TalkToServer.m310872314#310872314#0(0"0(0#0#65"/Users/Ali/Documents/App Project/iShopping/Classes/TalkToServer.m8609206528#2044"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/TalkToServer.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/TalkToServer.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/TalkToServer.o /Users/Ali/Downloads/iShopping/Classes/TalkToServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.265762
@@ -1379,8 +1394,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@61"Compile /Users/Ali/Downloads/iShopping/Classes/TalkToServer.m309159355#309159355#0(0"0(0#0#53"/Users/Ali/Downloads/iShopping/Classes/TalkToServer.m8599203232#1890"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/Classes/TalkToServer.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/TalkToServer.o0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingAppDelegate.o "/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.221859
-e310816547.327898
+s310872313.980447
+e310872314.086954
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingAppDelegate.o
@@ -1389,7 +1404,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/Ali/Documents/App Project/iShopping/Classes/iShoppingAppDelegate.m310816547#310816547#0(0"0(0#0#73"/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingAppDelegate.m8632191104#2060"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingAppDelegate.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingAppDelegate.o"0#
+lSLF07#2@81"Compile /Users/Ali/Documents/App Project/iShopping/Classes/iShoppingAppDelegate.m310872313#310872314#0(0"0(0#0#73"/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingAppDelegate.m8607477792#2060"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingAppDelegate.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingAppDelegate.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingAppDelegate.o /Users/Ali/Downloads/iShopping/Classes/iShoppingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159354.918526
@@ -1405,8 +1420,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/Ali/Downloads/iShopping/Classes/iShoppingAppDelegate.m309159354#309159355#0(0"0(0#0#61"/Users/Ali/Downloads/iShopping/Classes/iShoppingAppDelegate.m8603727968#1906"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/Classes/iShoppingAppDelegate.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingAppDelegate.o0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingViewController.o "/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.292993
-e310816547.388064
+s310872314.052888
+e310872314.157060
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingViewController.o
@@ -1415,7 +1430,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/Ali/Documents/App Project/iShopping/Classes/iShoppingViewController.m310816547#310816547#0(0"0(0#0#76"/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingViewController.m8618071712#2066"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingViewController.o"0#
+lSLF07#2@84"Compile /Users/Ali/Documents/App Project/iShopping/Classes/iShoppingViewController.m310872314#310872314#0(0"0(0#0#76"/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingViewController.m8602183936#2066"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/Classes/iShoppingViewController.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingViewController.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingViewController.o /Users/Ali/Downloads/iShopping/Classes/iShoppingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159355.122785
@@ -1431,8 +1446,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/Ali/Downloads/iShopping/Classes/iShoppingViewController.m309159355#309159355#0(0"0(0#0#64"/Users/Ali/Downloads/iShopping/Classes/iShoppingViewController.m8604414048#1912"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/Classes/iShoppingViewController.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShoppingViewController.o0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/main.o "/Users/Ali/Documents/App Project/iShopping/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816547.219713
-e310816547.292872
+s310872313.978437
+e310872314.052669
 r1
 xCompileC
 xbuild/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/main.o
@@ -1441,7 +1456,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/Ali/Documents/App Project/iShopping/main.m310816547#310816547#0(0"0(0#0#49"/Users/Ali/Documents/App Project/iShopping/main.m8633773760#2020"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/main.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/main.o"0#
+lSLF07#2@57"Compile /Users/Ali/Documents/App Project/iShopping/main.m310872313#310872314#0(0"0(0#0#49"/Users/Ali/Documents/App Project/iShopping/main.m8610554912#2020"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch -c "/Users/Ali/Documents/App Project/iShopping/main.m" -o "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/main.o"0#
 
 CCompileC build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/main.o /Users/Ali/Downloads/iShopping/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309159354.917025
@@ -1457,8 +1472,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@45"Compile /Users/Ali/Downloads/iShopping/main.m309159354#309159355#0(0"0(0#0#37"/Users/Ali/Downloads/iShopping/main.m8602382976#1866"    cd /Users/Ali/Downloads/iShopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap -iquote /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -I/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/include -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386 -I/Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources -include /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-athwxzgyopsibscthjhqfvngxbve/iShopping_Prefix.pch -c /Users/Ali/Downloads/iShopping/main.m -o /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/main.o0#
 
 CCompileXIB "/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib"
-s310816545.057731
-e310816545.879203
+s310872311.804957
+e310872312.504907
 r1
 xCompileXIB
 x/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib
@@ -1467,7 +1482,7 @@ o/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewControlle
 o/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:71: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.
 o/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:65: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.
 o/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:55: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.
-lSLF07#2@52"CompileXIB Classes/AccountSettingsViewController.xib310816545#310816545#0(1037"/* com.apple.ibtool.document.warnings *//Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:34: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored./Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:71: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored./Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:65: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored./Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:55: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.4(22@150"This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.310816545#18446744073709551615#0#0(6@84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib309151348#34#0#34#0#0"0(22@150"This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.310816545#18446744073709551615#0#0(6@84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib309151348#71#0#71#0#0"0(22@150"This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.310816545#18446744073709551615#0#0(6@84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib309151348#65#0#65#0#0"0(22@150"This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.310816545#18446744073709551615#0#0(6@84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib309151348#55#0#55#0#0"0(0#0#84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib8632188000#636"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/AccountSettingsViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@52"CompileXIB Classes/AccountSettingsViewController.xib310872311#310872312#0(1037"/* com.apple.ibtool.document.warnings *//Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:34: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored./Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:71: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored./Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:65: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored./Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib:55: warning: This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.4(22@150"This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.310872312#18446744073709551615#0#0(6@84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib309151348#34#0#34#0#0"0(22@150"This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.310872312#18446744073709551615#0#0(6@84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib309151348#71#0#71#0#0"0(22@150"This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.310872312#18446744073709551615#0#0(6@84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib309151348#65#0#65#0#0"0(22@150"This bar button item has a custom title but uses one of the system identifiers. As these attributes are mutually exclusive, the title will be ignored.310872312#18446744073709551615#0#0(6@84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib309151348#55#0#55#0#0"0(0#0#84"/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib8609296064#636"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/AccountSettingsViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/AccountSettingsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB "/Users/Ali/Documents/App Project/iShopping/Classes/AccountTabBarViewController.xib"
 s309099169.901130
@@ -1478,60 +1493,60 @@ x/Users/Ali/Documents/App Project/iShopping/Classes/AccountTabBarViewController.
 lSLF07#2@50"CompileXIB Classes/AccountTabBarViewController.xib309099169#309099170#0(0"0(0#0#82"/Users/Ali/Documents/App Project/iShopping/Classes/AccountTabBarViewController.xib8651632992#632"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/AccountTabBarViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/AccountTabBarViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB "/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.xib"
-s310816544.276854
-e310816545.057583
+s310872310.914110
+e310872311.804850
 r1
 xCompileXIB
 x/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.xib
-lSLF07#2@45"CompileXIB Classes/CartItemViewController.xib310816544#310816545#0(0"0(0#0#77"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.xib8605886752#622"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/CartItemViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@45"CompileXIB Classes/CartItemViewController.xib310872310#310872311#0(0"0(0#0#77"/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.xib8609514112#622"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/CartItemViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/CartItemViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB "/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.xib"
-s310816544.370395
-e310816544.865463
+s310872310.986685
+e310872311.603873
 r1
 xCompileXIB
 x/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.xib
-lSLF07#2@48"CompileXIB Classes/ClosedCartsViewController.xib310816544#310816544#0(0"0(0#0#80"/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.xib8602906496#628"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/ClosedCartsViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@48"CompileXIB Classes/ClosedCartsViewController.xib310872310#310872311#0(0"0(0#0#80"/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.xib8590544672#628"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/ClosedCartsViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/ClosedCartsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB "/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.xib"
-s310816543.666604
-e310816544.368843
+s310872310.055170
+e310872310.985270
 r1
 xCompileXIB
 x/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.xib
-lSLF07#2@48"CompileXIB Classes/CurrentCartViewController.xib310816543#310816544#0(0"0(0#0#80"/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.xib8606233312#628"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/CurrentCartViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@48"CompileXIB Classes/CurrentCartViewController.xib310872310#310872310#0(0"0(0#0#80"/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.xib8609090752#628"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/CurrentCartViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/CurrentCartViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB "/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.xib"
-s310816544.865576
-e310816545.585426
+s310872311.603983
+e310872312.312615
 r1
 xCompileXIB
 x/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.xib
-lSLF07#2@47"CompileXIB Classes/EmailCartsViewController.xib310816544#310816545#0(0"0(0#0#79"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.xib8632614688#626"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/EmailCartsViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@47"CompileXIB Classes/EmailCartsViewController.xib310872311#310872312#0(0"0(0#0#79"/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.xib8609774944#626"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/EmailCartsViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/EmailCartsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB "/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.xib"
-s310816543.411025
-e310816544.276614
+s310872309.916415
+e310872310.913947
 r1
 xCompileXIB
 x/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.xib
-lSLF07#2@42"CompileXIB Classes/LoginViewController.xib310816543#310816544#0(0"0(0#0#74"/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.xib8629582912#616"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/LoginViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@42"CompileXIB Classes/LoginViewController.xib310872309#310872310#0(0"0(0#0#74"/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.xib8609473312#616"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/LoginViewController.nib" "/Users/Ali/Documents/App Project/iShopping/Classes/LoginViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB "/Users/Ali/Documents/App Project/iShopping/MainWindow.xib"
-s310816542.550859
-e310816543.410898
+s310872309.311064
+e310872309.916312
 r1
 xCompileXIB
 x/Users/Ali/Documents/App Project/iShopping/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib310816542#310816543#0(0"0(0#0#57"/Users/Ali/Documents/App Project/iShopping/MainWindow.xib8629444416#590"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/MainWindow.nib" "/Users/Ali/Documents/App Project/iShopping/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib310872309#310872309#0(0"0(0#0#57"/Users/Ali/Documents/App Project/iShopping/MainWindow.xib8607292096#590"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/MainWindow.nib" "/Users/Ali/Documents/App Project/iShopping/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB "/Users/Ali/Documents/App Project/iShopping/iShoppingViewController.xib"
-s310816542.551793
-e310816543.653735
+s310872309.312029
+e310872310.019365
 r1
 xCompileXIB
 x/Users/Ali/Documents/App Project/iShopping/iShoppingViewController.xib
-lSLF07#2@38"CompileXIB iShoppingViewController.xib310816542#310816543#0(0"0(0#0#70"/Users/Ali/Documents/App Project/iShopping/iShoppingViewController.xib8629242688#616"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShoppingViewController.nib" "/Users/Ali/Documents/App Project/iShopping/iShoppingViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@38"CompileXIB iShoppingViewController.xib310872309#310872310#0(0"0(0#0#70"/Users/Ali/Documents/App Project/iShopping/iShoppingViewController.xib8607145248#616"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShoppingViewController.nib" "/Users/Ali/Documents/App Project/iShopping/iShoppingViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/Ali/Downloads/iShopping/Classes/AccountSettingsViewController.xib
 r0
@@ -1588,22 +1603,22 @@ x../../../Downloads/Copy.png
 lSLF07#2@32"Copy ../../../Downloads/Copy.png310814566#310814566#0(0"0(0#0#70"/Users/Ali/Documents/App Project/iShopping/../../../Downloads/Copy.png8606034112#491"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/../../../Downloads/Copy.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/ShoppingCarts.sqlite ShoppingCarts.sqlite
-s310816544.368954
-e310816544.376999
+s310872310.985375
+e310872311.027625
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/iShopping.app/ShoppingCarts.sqlite
 xShoppingCarts.sqlite
-lSLF07#2@25"Copy ShoppingCarts.sqlite310816544#310816544#0(0"0(0#0#63"/Users/Ali/Documents/App Project/iShopping/ShoppingCarts.sqlite8604956512#484"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/ShoppingCarts.sqlite" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
+lSLF07#2@25"Copy ShoppingCarts.sqlite310872310#310872311#0(0"0(0#0#63"/Users/Ali/Documents/App Project/iShopping/ShoppingCarts.sqlite8605820000#484"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/ShoppingCarts.sqlite" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/archive.png Images/archive.png
-s310816543.660727
-e310816543.675900
+s310872310.021816
+e310872310.057405
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/iShopping.app/archive.png
 xImages/archive.png
-lSLF07#2@23"Copy Images/archive.png310816543#310816543#0(0"0(0#0#61"/Users/Ali/Documents/App Project/iShopping/Images/archive.png8618289952#482"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/archive.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
+lSLF07#2@23"Copy Images/archive.png310872310#310872310#0(0"0(0#0#61"/Users/Ali/Documents/App Project/iShopping/Images/archive.png8609228736#482"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/archive.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/blueButton.png Images/blueButton.png
 s308974272.326144
@@ -1618,22 +1633,22 @@ CCpResource build/Debug-iphonesimulator/iShopping.app/blueButton.png blueButton.
 r0
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/cart.png Images/cart.png
-s310816543.653838
-e310816543.670231
+s310872310.019469
+e310872310.057141
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/iShopping.app/cart.png
 xImages/cart.png
-lSLF07#2@20"Copy Images/cart.png310816543#310816543#0(0"0(0#0#58"/Users/Ali/Documents/App Project/iShopping/Images/cart.png8605036384#479"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/cart.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
+lSLF07#2@20"Copy Images/cart.png310872310#310872310#0(0"0(0#0#58"/Users/Ali/Documents/App Project/iShopping/Images/cart.png8609396128#479"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/cart.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/copy.png Images/copy.png
-s310816545.587503
-e310816545.597106
+s310872312.318044
+e310872312.332208
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/iShopping.app/copy.png
 xImages/copy.png
-lSLF07#2@20"Copy Images/copy.png310816545#310816545#0(0"0(0#0#58"/Users/Ali/Documents/App Project/iShopping/Images/copy.png8632416928#479"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/copy.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
+lSLF07#2@20"Copy Images/copy.png310872312#310872312#0(0"0(0#0#58"/Users/Ali/Documents/App Project/iShopping/Images/copy.png8605852512#479"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/copy.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/copy2.png ../../../Downloads/copy2.png
 s310814691.411318
@@ -1666,22 +1681,22 @@ x../../../Downloads/editcopy.png
 lSLF07#2@36"Copy ../../../Downloads/editcopy.png310815495#310815495#0(0"0(0#0#74"/Users/Ali/Documents/App Project/iShopping/../../../Downloads/editcopy.png8628799872#495"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/../../../Downloads/editcopy.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/email.png Images/email.png
-s310816543.655431
-e310816543.675700
+s310872310.020708
+e310872310.057280
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/iShopping.app/email.png
 xImages/email.png
-lSLF07#2@21"Copy Images/email.png310816543#310816543#0(0"0(0#0#59"/Users/Ali/Documents/App Project/iShopping/Images/email.png8629536096#480"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/email.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
+lSLF07#2@21"Copy Images/email.png310872310#310872310#0(0"0(0#0#59"/Users/Ali/Documents/App Project/iShopping/Images/email.png8609296384#480"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/email.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/grayBackground.png Images/grayBackground.png
-s310816545.585546
-e310816545.595714
+s310872312.312713
+e310872312.327224
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/iShopping.app/grayBackground.png
 xImages/grayBackground.png
-lSLF07#2@30"Copy Images/grayBackground.png310816545#310816545#0(0"0(0#0#68"/Users/Ali/Documents/App Project/iShopping/Images/grayBackground.png8634683008#489"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/grayBackground.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
+lSLF07#2@30"Copy Images/grayBackground.png310872312#310872312#0(0"0(0#0#68"/Users/Ali/Documents/App Project/iShopping/Images/grayBackground.png8607178624#489"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/grayBackground.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/icon ../../../Downloads/icon
 r0
@@ -1696,25 +1711,25 @@ x../../../Downloads/icon.png
 lSLF07#2@32"Copy ../../../Downloads/icon.png309159216#309159216#0(0"0(0#0#70"/Users/Ali/Documents/App Project/iShopping/../../../Downloads/icon.png8605823776#491"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/../../../Downloads/icon.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/icon.png Images/icon.png
-s310816545.586568
-e310816545.595870
+s310872312.314024
+e310872312.326836
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/iShopping.app/icon.png
 xImages/icon.png
-lSLF07#2@20"Copy Images/icon.png310816545#310816545#0(0"0(0#0#58"/Users/Ali/Documents/App Project/iShopping/Images/icon.png8634327424#479"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/icon.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
+lSLF07#2@20"Copy Images/icon.png310872312#310872312#0(0"0(0#0#58"/Users/Ali/Documents/App Project/iShopping/Images/icon.png8606206240#479"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/icon.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/iphone-camera.jpg Images/iphone-camera.jpg
 r0
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/settings.png Images/settings.png
-s310816543.664961
-e310816543.683379
+s310872310.032554
+e310872310.069587
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/iShopping.app/settings.png
 xImages/settings.png
-lSLF07#2@24"Copy Images/settings.png310816543#310816543#0(0"0(0#0#62"/Users/Ali/Documents/App Project/iShopping/Images/settings.png8609491680#483"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/settings.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
+lSLF07#2@24"Copy Images/settings.png310872310#310872310#0(0"0(0#0#62"/Users/Ali/Documents/App Project/iShopping/Images/settings.png8609192832#483"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Ali/Documents/App Project/iShopping/Images/settings.png" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CCpResource build/Debug-iphonesimulator/iShopping.app/whiteButton.png ../../../Desktop/whiteButton.png
 r0
@@ -1732,13 +1747,13 @@ CCpResource build/Debug-iphonesimulator/iShopping.app/whiteButton.png whiteButto
 r0
 
 CGenerateDSYMFile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app.dSYM" "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping"
-s310816548.165511
-e310816548.206362
+s310839850.525484
+e310839850.572150
 r1
 xGenerateDSYMFile
 x/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app.dSYM
 x/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/iShopping.app.dSYM build/Debug-iphonesimulator/iShopping.app/iShopping310816548#310816548#0(0"0(0#0#94"/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping8631920608#407"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping" -o "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app.dSYM"0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/iShopping.app.dSYM build/Debug-iphonesimulator/iShopping.app/iShopping310839850#310839850#0(0"0(0#0#94"/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping8606566080#407"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping" -o "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app.dSYM"0#
 
 CGenerateDSYMFile /Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app.dSYM /Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping
 s309159356.113596
@@ -1750,14 +1765,14 @@ x/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopp
 lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/iShopping.app.dSYM build/Debug-iphonesimulator/iShopping.app/iShopping309159356#309159356#0(0"0(0#0#82"/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping8599666048#365"    cd /Users/Ali/Downloads/iShopping    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping -o /Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app.dSYM0#
 
 CLd "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping" normal i386
-s310816548.100708
-e310816548.165393
+s310839850.442250
+e310839850.525218
 r1
 xLd
 x/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping
 xnormal
 xi386
-lSLF07#2@99"Link /Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping310816548#310816548#0(0"0(0#0#0"8610644672#974"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" -filelist "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShopping.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -framework QuartzCore -o "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping"0#
+lSLF07#2@99"Link /Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping310839850#310839850#0(0"0(0#0#0"8645448736#974"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" -filelist "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShopping.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -framework QuartzCore -o "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping"0#
 
 CLd /Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping normal i386
 s309159355.965974
@@ -1770,13 +1785,13 @@ xi386
 lSLF07#2@87"Link /Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping309159355#309159356#0(0"0(0#0#0"8601783360#882"    cd /Users/Ali/Downloads/iShopping    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -F/Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator -filelist /Users/Ali/Downloads/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/Objects-normal/i386/iShopping.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app/iShopping0#
 
 CProcessInfoPlistFile "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/Info.plist" iShopping-Info.plist
-s310816542.546343
-e310816542.550768
+s310872309.306381
+e310872309.310959
 r1
 xProcessInfoPlistFile
 x/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/Info.plist
 xiShopping-Info.plist
-lSLF07#2@28"Process iShopping-Info.plist310816542#310816542#0(0"0(0#0#63"/Users/Ali/Documents/App Project/iShopping/iShopping-Info.plist8629683648#503"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iShopping-Info.plist -genpkginfo "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/Info.plist"0#
+lSLF07#2@28"Process iShopping-Info.plist310872309#310872309#0(0"0(0#0#63"/Users/Ali/Documents/App Project/iShopping/iShopping-Info.plist8608923584#503"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iShopping-Info.plist -genpkginfo "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app/Info.plist"0#
 
 CProcessInfoPlistFile /Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app/Info.plist iShopping-Info.plist
 s309159354.891117
@@ -1791,8 +1806,8 @@ CProcessPCH /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode
 r0
 
 CProcessPCH /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch.gch iShopping_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s310816545.879486
-e310816547.219402
+s310872312.505096
+e310872313.978145
 r1
 xProcessPCH
 x/var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch.gch
@@ -1801,15 +1816,15 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile iShopping_Prefix.pch310816545#310816547#0(0"0(0#0#63"/Users/Ali/Documents/App Project/iShopping/iShopping_Prefix.pch8629757760#1904"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -c "/Users/Ali/Documents/App Project/iShopping/iShopping_Prefix.pch" -o /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch.gch0#
+lSLF07#2@31"Precompile iShopping_Prefix.pch310872312#310872313#0(0"0(0#0#63"/Users/Ali/Documents/App Project/iShopping/iShopping_Prefix.pch8608867456#1904"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-generated-files.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-own-target-headers.hmap" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-all-target-headers.hmap" -iquote "/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/iShopping-project-headers.hmap" "-F/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator" "-I/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/include" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources/i386" "-I/Users/Ali/Documents/App Project/iShopping/build/iShopping.build/Debug-iphonesimulator/iShopping.build/DerivedSources" -c "/Users/Ali/Documents/App Project/iShopping/iShopping_Prefix.pch" -o /var/folders/w0/w0WSkYCYG4yxqINm+jrEHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iShopping_Prefix-citadwehoqhjzrceaqzeweuovhbj/iShopping_Prefix.pch.gch0#
 
 CTouch "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"
-s310816548.206465
-e310816548.210850
+s310840195.143905
+e310840195.147197
 r1
 xTouch
 x/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app
-lSLF07#2@90"Touch /Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app310816548#310816548#0(0"0(0#0#0"8629639744#292"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
+lSLF07#2@90"Touch /Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app310840195#310840195#0(0"0(0#0#0"8603475840#292"    cd "/Users/Ali/Documents/App Project/iShopping"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Ali/Documents/App Project/iShopping/build/Debug-iphonesimulator/iShopping.app"0#
 
 CTouch /Users/Ali/Downloads/iShopping/build/Debug-iphonesimulator/iShopping.app
 s309159356.156134

@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "ShoppingItem.h"
+#import <MessageUI/MessageUI.h>
 
 
-@interface ClosedCartsViewController : UIViewController <UITableViewDelegate , UITableViewDataSource , UIPickerViewDelegate , UIPickerViewDataSource , UIActionSheetDelegate> {
+@interface ClosedCartsViewController : UIViewController <UITableViewDelegate , UITableViewDataSource ,
+														UIPickerViewDelegate , UIPickerViewDataSource , 
+														UIActionSheetDelegate , MFMailComposeViewControllerDelegate> {
 
 	NSString *userEmail;
 	NSMutableArray *carts;

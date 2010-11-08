@@ -14,6 +14,7 @@
 @synthesize itemName;
 @synthesize itemDescription; 
 @synthesize itemPicture;
+@synthesize cleared;
 
 
 - (void) dealloc {

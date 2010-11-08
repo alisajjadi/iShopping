@@ -14,12 +14,15 @@
 	NSString *itemName;
 	NSString *itemDescription; 
 	UIImage *itemPicture; 
+	BOOL cleared;
 
 }
 
 @property (nonatomic, retain) NSString *itemName;
 @property (nonatomic, retain) NSString *itemDescription; 
 @property (nonatomic, retain) UIImage *itemPicture; 
+@property (nonatomic, assign) BOOL cleared;
+ 
 
 
 

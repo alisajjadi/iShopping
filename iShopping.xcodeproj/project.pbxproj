@@ -32,11 +32,10 @@
 		414ABD0C126CF7DE00BDE2D7 /* ClosedCartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414ABD0A126CF7DE00BDE2D7 /* ClosedCartsViewController.m */; };
 		414ABD0D126CF7DE00BDE2D7 /* ClosedCartsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414ABD0B126CF7DE00BDE2D7 /* ClosedCartsViewController.xib */; };
 		414ABD42126D01B700BDE2D7 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = 414ABD41126D01B700BDE2D7 /* Cart.m */; };
-		414ABDB4126D1BBB00BDE2D7 /* EmailCartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414ABDB2126D1BBB00BDE2D7 /* EmailCartsViewController.m */; };
-		414ABDB5126D1BBB00BDE2D7 /* EmailCartsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414ABDB3126D1BBB00BDE2D7 /* EmailCartsViewController.xib */; };
 		414ABE6C126D381400BDE2D7 /* AccountSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414ABE6A126D381400BDE2D7 /* AccountSettingsViewController.m */; };
 		414ABE6D126D381400BDE2D7 /* AccountSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414ABE6B126D381400BDE2D7 /* AccountSettingsViewController.xib */; };
 		414ABF0F126D595D00BDE2D7 /* grayBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 414ABF0E126D595D00BDE2D7 /* grayBackground.png */; };
+		41579BBB128788C40029B4EC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41579BBA128788C40029B4EC /* MessageUI.framework */; };
 		41AD920C126A82FC00A47AD4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD920A126A82FC00A47AD4 /* LoginViewController.m */; };
 		41AD920D126A82FC00A47AD4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AD920B126A82FC00A47AD4 /* LoginViewController.xib */; };
 		41AD936E126B07F700A47AD4 /* TalkToServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD936D126B07F700A47AD4 /* TalkToServer.m */; };
@@ -79,13 +78,11 @@
 		414ABD0B126CF7DE00BDE2D7 /* ClosedCartsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ClosedCartsViewController.xib; path = Classes/ClosedCartsViewController.xib; sourceTree = "<group>"; };
 		414ABD40126D01B700BDE2D7 /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cart.h; path = Classes/Cart.h; sourceTree = "<group>"; };
 		414ABD41126D01B700BDE2D7 /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cart.m; path = Classes/Cart.m; sourceTree = "<group>"; };
-		414ABDB1126D1BBB00BDE2D7 /* EmailCartsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailCartsViewController.h; sourceTree = "<group>"; };
-		414ABDB2126D1BBB00BDE2D7 /* EmailCartsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailCartsViewController.m; sourceTree = "<group>"; };
-		414ABDB3126D1BBB00BDE2D7 /* EmailCartsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EmailCartsViewController.xib; path = Classes/EmailCartsViewController.xib; sourceTree = "<group>"; };
 		414ABE69126D381400BDE2D7 /* AccountSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSettingsViewController.h; sourceTree = "<group>"; };
 		414ABE6A126D381400BDE2D7 /* AccountSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSettingsViewController.m; sourceTree = "<group>"; };
 		414ABE6B126D381400BDE2D7 /* AccountSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AccountSettingsViewController.xib; path = Classes/AccountSettingsViewController.xib; sourceTree = "<group>"; };
 		414ABF0E126D595D00BDE2D7 /* grayBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayBackground.png; path = Images/grayBackground.png; sourceTree = "<group>"; };
+		41579BBA128788C40029B4EC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		41AD9209126A82FC00A47AD4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		41AD920A126A82FC00A47AD4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		41AD920B126A82FC00A47AD4 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/LoginViewController.xib; sourceTree = "<group>"; };
@@ -105,6 +102,7 @@
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				414ABBA8126CA87500BDE2D7 /* libsqlite3.0.dylib in Frameworks */,
 				413544E1127FC8AA00636E1A /* QuartzCore.framework in Frameworks */,
+				41579BBB128788C40029B4EC /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,8 +124,6 @@
 				414AB9FA126C71DB00BDE2D7 /* CartItemViewController.m */,
 				414ABD09126CF7DE00BDE2D7 /* ClosedCartsViewController.h */,
 				414ABD0A126CF7DE00BDE2D7 /* ClosedCartsViewController.m */,
-				414ABDB1126D1BBB00BDE2D7 /* EmailCartsViewController.h */,
-				414ABDB2126D1BBB00BDE2D7 /* EmailCartsViewController.m */,
 				414ABE69126D381400BDE2D7 /* AccountSettingsViewController.h */,
 				414ABE6A126D381400BDE2D7 /* AccountSettingsViewController.m */,
 				4135447C127FB03400636E1A /* GradientButton.h */,
@@ -172,7 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				414ABE6B126D381400BDE2D7 /* AccountSettingsViewController.xib */,
-				414ABDB3126D1BBB00BDE2D7 /* EmailCartsViewController.xib */,
 				414ABD0B126CF7DE00BDE2D7 /* ClosedCartsViewController.xib */,
 				414AB8A9126C357000BDE2D7 /* CurrentCartViewController.xib */,
 				414AB9FB126C71DB00BDE2D7 /* CartItemViewController.xib */,
@@ -193,6 +188,7 @@
 				413544E0127FC8AA00636E1A /* QuartzCore.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 				414ABBA7126CA87500BDE2D7 /* libsqlite3.0.dylib */,
+				41579BBA128788C40029B4EC /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -284,7 +280,6 @@
 				414AB9FD126C71DB00BDE2D7 /* CartItemViewController.xib in Resources */,
 				414ABAAB126CA33200BDE2D7 /* ShoppingCarts.sqlite in Resources */,
 				414ABD0D126CF7DE00BDE2D7 /* ClosedCartsViewController.xib in Resources */,
-				414ABDB5126D1BBB00BDE2D7 /* EmailCartsViewController.xib in Resources */,
 				414ABE6D126D381400BDE2D7 /* AccountSettingsViewController.xib in Resources */,
 				414ABF0F126D595D00BDE2D7 /* grayBackground.png in Resources */,
 				410BF4DA126D65970052E204 /* icon.png in Resources */,
@@ -309,7 +304,6 @@
 				414ABA81126C8E1400BDE2D7 /* ShoppingItem.m in Sources */,
 				414ABD0C126CF7DE00BDE2D7 /* ClosedCartsViewController.m in Sources */,
 				414ABD42126D01B700BDE2D7 /* Cart.m in Sources */,
-				414ABDB4126D1BBB00BDE2D7 /* EmailCartsViewController.m in Sources */,
 				414ABE6C126D381400BDE2D7 /* AccountSettingsViewController.m in Sources */,
 				4135447E127FB03400636E1A /* GradientButton.m in Sources */,
 			);

@@ -10,7 +10,6 @@
 #import "TalkToServer.h"
 #import "CurrentCartViewController.h"
 #import "ClosedCartsViewController.h"
-#import "EmailCartsViewController.h"
 #import "AccountSettingsViewController.h"
 
 @implementation LoginViewController
@@ -125,12 +124,10 @@
 		
 	CurrentCartViewController *currentCart = [[CurrentCartViewController alloc] init];
 	ClosedCartsViewController *closedCarts = [[ClosedCartsViewController alloc] init];
-	EmailCartsViewController *emailCarts = [[EmailCartsViewController alloc] init];
 	AccountSettingsViewController *accountSettings = [[AccountSettingsViewController alloc] init];
 
 	currentCart.userEmail = userEmail;
 	closedCarts.userEmail = userEmail;
-	emailCarts.userEmail = userEmail;
 	accountSettings.userEmail  = userEmail;
 	
 	// Set Tab Bar properties
@@ -140,17 +137,13 @@
 	UITabBarItem *closedCartsItem = [[UITabBarItem alloc] initWithTitle:@"Closed Carts" 
 																  image:[UIImage imageNamed:@"archive.png"]
 																	tag:2];
-	UITabBarItem *emailCartsItem = [[UITabBarItem alloc] initWithTitle:@"Email Carts" 
-																  image:[UIImage imageNamed:@"email.png"]
-																	tag:3];
 	UITabBarItem *accountSettingsItem = [[UITabBarItem alloc] initWithTitle:@"Account Settings" 
 																  image:[UIImage imageNamed:@"settings.png"]
 																	tag:4];
 	currentCart.tabBarItem = currentCartItem;
 	closedCarts.tabBarItem = closedCartsItem;
-	emailCarts.tabBarItem = emailCartsItem;
 	accountSettings.tabBarItem = accountSettingsItem;
-	tabBarController.viewControllers = [NSArray arrayWithObjects: currentCart , closedCarts , emailCarts , accountSettings , nil];
+	tabBarController.viewControllers = [NSArray arrayWithObjects: currentCart , closedCarts , accountSettings , nil];
 	
 	
 	// replace new View i.e. tabBarController with current one i.e. Login View (Back button brings the Home screen)
@@ -163,11 +156,9 @@
 	[tabBarController release];
 	[currentCart release];
 	[closedCarts release];
-	[emailCarts release];
 	[accountSettings release];
 	[currentCartItem release];
 	[closedCartsItem release];
-	[emailCartsItem release];
 	[accountSettingsItem release];
 }
 
