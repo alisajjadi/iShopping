@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CartItemViewController.h"
 #import "ShoppingItem.h"
 #import <MessageUI/MessageUI.h>
 
 
 @interface ClosedCartsViewController : UIViewController <UITableViewDelegate , UITableViewDataSource ,
 														UIPickerViewDelegate , UIPickerViewDataSource , 
-														UIActionSheetDelegate , MFMailComposeViewControllerDelegate> {
+														UIActionSheetDelegate , MFMailComposeViewControllerDelegate,
+														CartItemViewControllerDelegate> {
 
 	NSString *userEmail;
 	NSMutableArray *carts;
@@ -30,6 +32,5 @@
 @property (nonatomic , retain) 	NSMutableArray *carts;
 @property (nonatomic , retain) 	UIPickerView *picker;
 
-- (void)returnFromModalViewWithItem:(ShoppingItem *) item;
 
 @end

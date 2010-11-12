@@ -15,25 +15,41 @@ typedef enum {
     EditOnly
 } EditableStyle;
 
-@interface CartItemViewController : UIViewController {
+@protocol CartItemViewControllerDelegate
+
+@required
+
+- (void)returnFromCartItemModalViewWithItem:(ShoppingItem *) item;
+
+@end
+
+@interface CartItemViewController : UIViewController <UIScrollViewDelegate , UIActionSheetDelegate , UIImagePickerControllerDelegate , UINavigationControllerDelegate, UITextViewDelegate> {
 	
 	ShoppingItem *item;
-	UIViewController *callingViewController;
 	EditableStyle itemIsEditable;
-	
+														
+	IBOutlet UINavigationBar *topBar;
+
 	IBOutlet UITextView *nameLabel;
 	IBOutlet UITextView *descriptionLabel;
+	IBOutlet UIScrollView *imageScrollView;
+	UIImageView *imageView;
+	UILabel *imageLabel;
+	UIView *coverView;
+	UIImage *noPhoto;
 	
-	IBOutlet UIBarButtonItem *leftBarButton;
-	IBOutlet UIBarButtonItem *rightBarButton;
+	UIGestureRecognizer *tapRecognizer;
+	
+	BOOL editing;
+	CGRect imageScrollViewOriginalFrame;
+	
+	IBOutlet UIScrollView *pageScrollView;
 
 }
 
 @property (nonatomic , retain) ShoppingItem *item;
-@property (nonatomic , retain) UIViewController *callingViewController;
+@property (nonatomic , retain) id<CartItemViewControllerDelegate> callingViewController;
 @property (nonatomic , assign) EditableStyle itemIsEditable;
-
--(IBAction) doneOrSave;
--(IBAction) editOrCancelEditing;
+@property (nonatomic , assign , getter = isEditing) BOOL editing;
 
 @end

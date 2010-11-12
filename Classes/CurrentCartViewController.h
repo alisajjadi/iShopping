@@ -7,16 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CartItemViewController.h"
 #import "ShoppingItem.h"
 
 
-@interface CurrentCartViewController : UIViewController <UITableViewDelegate , UITableViewDataSource , UISearchBarDelegate , UIActionSheetDelegate> {
+@interface CurrentCartViewController : UIViewController <UITableViewDelegate , UITableViewDataSource,
+									UISearchBarDelegate , UIActionSheetDelegate, CartItemViewControllerDelegate> {
 	
 	NSString *userEmail;
 	
 	NSMutableArray *cartItems;
-	IBOutlet UIButton *archiveOrAddItemButton;
 	IBOutlet UITableView *tableView;
+	IBOutlet UIButton *archiveOrAddItemButton;
+	IBOutlet UIButton *mapButton;
 	
 
 }
@@ -27,8 +30,7 @@
 
 
 - (IBAction) archiveCartOrAddNewItem;
-
-- (void)returnFromModalViewWithItem:(ShoppingItem *) item;
+- (IBAction) showMap;
 
 
 @end

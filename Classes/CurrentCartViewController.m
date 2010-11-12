@@ -7,11 +7,9 @@
 //
 
 #import "CurrentCartViewController.h"
-#import "CartItemViewController.h"
 #import "ClosedCartsViewController.h"
 #import "TalkToServer.h"
-
-#import <QuartzCore/QuartzCore.h>
+#import "MapViewController.h"
 
 @implementation CurrentCartViewController
 
@@ -84,8 +82,14 @@
 		
 }
 
+- (IBAction) showMap
+{
+	MapViewController *map = [[MapViewController alloc] init];
+	[self presentModalViewController:map animated:YES];
+	[map release];
+}
 
-- (void)returnFromModalViewWithItem:(ShoppingItem *) item
+- (void)returnFromCartItemModalViewWithItem:(ShoppingItem *) item
 {
 	if (item.itemName.length > 0)   
 	{
@@ -252,9 +256,8 @@
 
 #pragma mark -
 
-
-
-- (void)viewDidLoad {
+- (void)viewDidLoad 
+{
 	tableView.allowsSelectionDuringEditing = YES;
 	
 	// Set Left Navigation Bar button
@@ -265,9 +268,32 @@
 	self.tabBarController.navigationItem.leftBarButtonItem = button;
 	self.tabBarController.title = @"Current Cart";
 	[button release];
+	
+	// Set map button's look   (Color RGB=[0.196078 0.309804 0.521569] = UIButton's default color
+	UIImageView *mapButtonIcon = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"location.png"]];
+	mapButtonIcon.center = CGPointMake(mapButton.bounds.size.width/2, mapButton.bounds.size.height/2); 
+	[mapButton addSubview:mapButtonIcon];
+	[mapButtonIcon release];
 
 	cartItems = [[TalkToServer cartItemsForUsername:userEmail andCartId:0] retain];
 	
+	////////////////*************** FOR TEST ************************
+	for (ShoppingItem *item in cartItems)
+	{
+		if ([item.itemName isEqual:@"Apple"])
+			item.itemPicture = [UIImage imageNamed:@"green_apple.jpg"];
+
+		if ([item.itemName isEqual:@"Banana"])
+			item.itemPicture = [UIImage imageNamed:@"banana.jpg"];
+		
+		if ([item.itemName isEqual:@"Milk"])
+			item.itemPicture = [UIImage imageNamed:@"milk.png"];
+		
+		if ([item.itemName isEqual:@"Butter"])
+			item.itemPicture = [UIImage imageNamed:@"butter.jpg"];
+	}
+	////////////////*************************************************
+
 	[super viewDidLoad];
 }
 
@@ -316,12 +342,11 @@
 - (void)dealloc {
 	[cartItems release];
 	[userEmail release];
-	[archiveOrAddItemButton release];
 	[tableView release];
+	[archiveOrAddItemButton release];
+	[mapButton release];
     [super dealloc];
 }
-
-
 
 
 @end

@@ -7,7 +7,6 @@
 //
 
 #import "ClosedCartsViewController.h"
-#import "CartItemViewController.h"
 #import "CurrentCartViewController.h"
 #import "Cart.h"
 #import "TalkToServer.h"
@@ -21,7 +20,7 @@
 @synthesize picker;
 
 
-- (void)returnFromModalViewWithItem:(ShoppingItem *) item
+- (void)returnFromCartItemModalViewWithItem:(ShoppingItem *) item
 {
 	[self dismissModalViewControllerAnimated:YES];
 }
@@ -88,7 +87,7 @@
 		
 		//UIButton *accessoryButton = [UIButton buttonWithType:UIButtonTypeContactAdd];
 		UIButton *accessoryButton = [UIButton buttonWithType:UIButtonTypeCustom];
-		accessoryButton.frame = CGRectMake(0, 0, 24, 24);
+		accessoryButton.frame = CGRectMake(0, 0, 43, 43);
 		[accessoryButton setImage:[UIImage imageNamed:@"copy.png"] forState:UIControlStateNormal];
 		
 		[accessoryButton addTarget:self action:@selector(copyItemToCurrentCart:forEvent:) forControlEvents:UIControlEventTouchUpInside ] ;
@@ -158,7 +157,7 @@
 {
 	if ([[actionSheet buttonTitleAtIndex:buttonIndex] isEqualToString: @"Delete Cart"])  
 	{
-		[carts removeObjectAtIndex:[picker selectedRowInComponent:0]];
+		[carts removeObjectAtIndex:carts.count - 1 - [picker selectedRowInComponent:0]];
 		[picker reloadAllComponents];
 		[self pickerView:picker didSelectRow:[picker selectedRowInComponent:0] inComponent:0];
 	} 
@@ -168,11 +167,17 @@
 		MFMailComposeViewController *controller = [[MFMailComposeViewController alloc] init];
 		controller.mailComposeDelegate = self;
 		NSString *subject = [(UILabel *)[picker viewForRow:[picker selectedRowInComponent:0]  forComponent:0] text];  
-		NSMutableString *body = [NSMutableString stringWithFormat:@"Hi,\nI would like to share my %@ with you:\n\n",subject];
+		
+		NSMutableString *body = [NSMutableString stringWithString:@"<html><body>"];
+		[body appendString:@"<p>Hi,<BR>I would like to share this cart with you:<BR><BR></p>"];
+		[body appendString:@"<TABLE BORDER=2>"]; 
 		for (ShoppingItem *item in cartItems)
-			[body appendFormat:@"Name: %@\nDesc.: %@\n\n",item.itemName,item.itemDescription];
+			[body appendFormat:@"<TR> <TD>%@</TD><TD>%@</TD></TR>",item.itemName,item.itemDescription];
+		[body appendString:@"</TABLE>"];
+		[body appendString:@"</body></html>"]; 
+
 		[controller setSubject:subject];
-		[controller setMessageBody:body isHTML:NO]; 
+		[controller setMessageBody:body isHTML:YES]; 
 		[self presentModalViewController:controller animated:YES];
 		[controller release];
 	}

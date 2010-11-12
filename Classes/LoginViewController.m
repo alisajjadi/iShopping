@@ -165,16 +165,6 @@
 #pragma mark -
 
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
 - (void)viewWillAppear:(BOOL)animated
 {
 	// Default view is Login view for self.title == "User Login"
@@ -189,48 +179,8 @@
 	{
 		self.view = guestView;
 	}
-	
 }
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-	// Set the look of Buttons
-	[signInButton setBackgroundImage: [[UIImage imageNamed:@"whiteButton"] 
-								 stretchableImageWithLeftCapWidth:12 topCapHeight:0]
-								forState:UIControlStateNormal];	
-	
-	[signUpButton setBackgroundImage: [[UIImage imageNamed:@"whiteButton"] 
-									   stretchableImageWithLeftCapWidth:12 topCapHeight:0]
-							forState:UIControlStateNormal];	
-	
-	[proceedAsGuestButton setBackgroundImage: [[UIImage imageNamed:@"whiteButton"] 
-									   stretchableImageWithLeftCapWidth:12 topCapHeight:0]
-							forState:UIControlStateNormal];
-	
-	[createAnAccountButton setBackgroundImage: [[UIImage imageNamed:@"whiteButton"] 
-											   stretchableImageWithLeftCapWidth:12 topCapHeight:0]
-									forState:UIControlStateNormal];
-	 
-    //Initialize textFields
-	for (UITextField *textField in [NSArray arrayWithObjects: signInUsernameTextField , signUpUsernameTextField ,
-		signUpNicknameTextField,nil ]) 
-	{
-		textField.text = [self defaultText:textField];
-	}
-	 
-	
-}
-*/
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
